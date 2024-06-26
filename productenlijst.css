@@ -1,0 +1,184 @@
+nav {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: 1fr;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows:repeat(1, 1fr);
+}
+
+header{
+    background: red;
+}
+
+#logo{
+    margin: 2rem;
+    width: 450%;
+    object-fit: cover;
+    grid-column: 1/3;
+
+}
+
+.searchBar{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    grid-column: 9/10;
+    height: 2rem;
+    margin-top: 2rem;
+}
+
+.searchBar__input{
+    border: none;
+    width: 40rem;
+    font-size: 2rem;
+    border: 0.3rem solid var(--color-pink);
+    border-radius: 0.5rem;
+    padding: 2rem 4rem;
+    box-shadow: 0 0.5rem 1rem 0.5rem rgba(242, 122, 156, 0.3);
+}
+
+
+
+#productenLink{
+    display: flex;
+    align-items: center;
+    grid-column: 14/15;
+    background-color: red;
+    padding: 1rem;
+    margin: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+#winkelwagenLink{
+    display: flex;
+    align-items: center;
+    grid-column: 15/16;
+    background-color: red;
+    padding: 1rem;
+    margin: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+  margin-top: 5rem;
+  background: red;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.footer-section {
+  flex: 1;
+  margin: 1rem;
+  min-width: 20rem;
+}
+
+.footer-section h2 {
+  margin-bottom: 1rem;
+}
+
+.footer-section p, .footer-section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 0.1rem solid white;
+  padding-top: 1rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 2rem;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+main{
+  width: 100%;
+}
+
+.inputs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  width: 100%;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+.inputs > div{
+  display: flex;
+  align-items: center;
+  width: 40rem;
+}
+
+.filter{
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
+
+.colors{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+.color{
+  list-style-type: none;
+  width: 25rem;
+  height: 30rem;
+  transition: 0.2s transform;
+  flex-grow: 1;
+}
+
+.color:hover{
+  transform: scale(1.02) translateY(-0.7rem);
+  cursor: pointer;
+}
+
+.color img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="productenlijst.css">
+  <script src="producten-lijst-filter.js" defer></script>
+  <title>Product-list</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a id="logoSize" href="index.html">
+        <img id="logo" class="logo"
+            src="https://cms-images.mmst.eu/jq6pdee2ul1f/6KONlNAvEvWpm48iEIgDyQ/c644e429cbd5c0ac45553b16445a7668/MM_logo_white.svg?q=80"
+            alt="MediaMarkt logo">
+            </a>
+            <section class="searchBar">
+                <input type="text" placeholder="Search for a product here..." class="searchBar__input">
+                <i class="fa-solid fa-magnifying-glass searchBar__glass"></i>
+            </section>
+        <a href="" id="productenLink"> Producten</a>
+        <a href="winkelwagen/winkelwagen.html" id="winkelwagenLink">Winkelwagen</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="inputs">
+        <div><input id="checkbox-red" type="checkbox" class="filter">
+            <label for="checkbox-red" class="label">Games</label>
+        </div>
+        <div><input id="checkbox-green" type="checkbox" class="filter">
+            <label for="checkbox-green" class="label">Console</label>
+        </div>
+        <div><input id="checkbox-blue" type="checkbox" class="filter">
+            <label for="checkbox-blue" class="label">iPad</label>
+        </div>
+
+    </section>
+    <ul class="colors">
+        <a href="producten/eldenRing-ps-5.html">
+        <li class="color" data-category="red"><img src="eldenRing.png" alt="red"></li>
+        </a>
+        <a href="producten/playstation-portal.html">
+        <li class="color" data-category="green"><img src="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_126772040?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402" alt="green"></li>
+        </a>
+        <a href="producten/playstation-5-accessoires-bundel.html">
+        <li class="color" data-category="green"><img src="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_105205711?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402" alt="green"></li>
+        </a>
+        <a href="producten/playstation-5-fifa-bundel.html">
+        <li class="color" data-category="green"><img src="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_120911583?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402" alt="green"></li>
+        </a>
+        <a href="producten/playstation-5-slim.html">
+        <li class="color" data-category="green"><img src="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_135205157?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402" alt="green"></li>
+        </a>
+        <a href="producten/apple-ipad-pro.html">
+        <li class="color" data-category="blue"><img src="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_140598867?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402" alt="blue"></li>
+        </a>
+    </ul>
+    </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section about">
+        <h2>Over Ons</h2>
+        <p>Wij zijn een bedrijf dat zich richt op het leveren van hoogwaardige producten en diensten aan onze klanten. Onze missie is om uit te blinken in klanttevredenheid en innovatie.</p>
+      </div>
+        <div class="footer-section links">
+            <h2>Snelle Links</h2>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Over Ons</a></li>
+            <li><a href="#">Diensten</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacybeleid</a></li>
+            </ul>
+        </div>
+        <div class="footer-section contact">
+            <h2>Contact</h2>
+            <p>Email: contact@mediamarkt.nl</p>
+            <p>Telefoon: 020 521 3600</p>
+        </div>
+        </div>
+        <div class="footer-bottom">
+        <p>&copy; 2024 MediaMarkt.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
